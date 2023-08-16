@@ -8,7 +8,7 @@ const router = Router();
 
 
 router.post('/login',  loginUser);
-router.post('/nuevoloco', newUser);
+router.post('/nuevoloco', logBasicAuth, newUser);
 router.get('/:id',  getUserById);
 
 export {router}; 

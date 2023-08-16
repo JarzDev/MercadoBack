@@ -5,7 +5,7 @@ import { router } from "./routes";
 import db from "./config/dbConnect";    
 
 
-const PORT = process.env.PORT || 3002; 
+const PORT = process.env.PORT || 3101; 
 const app = express();
  
 
